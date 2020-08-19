@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+}
+p {
+  font-family: "Roboto";
+}
+
+.marginBox {
+  margin-top: -150px;
+  margin-left: 42%;
+  position: absolute;
+}
+
+.colorBox {
+  background: rgb(112, 196, 224);
+  background-image: linear-gradient(
+    -225deg,
+    #473b7b 0%,
+    #3584a7 51%,
+    #30d2be 100%
+  );
+  padding: 100px 0;
+  transform: skew(0deg, -6deg) translateY(-110px);
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .marginBox {
+    margin-top: -150px;
+    margin-left: 37%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .marginBox {
+    margin-top: -150px;
+    margin-left: 25%;
+    position: absolute;
+  }
+}
+.img {
+  height: 20px;
+}
