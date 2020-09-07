@@ -5,10 +5,13 @@
     <meta charset="utf-8" />
     <link rel="icon" href="Images/profilepic.jpeg" >
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-calendar/1.3.1/github-calendar-responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <title>Lakshmi's Portfolio</title>
 </head>
 
@@ -133,7 +136,7 @@
       
       <div class="container">
           <div class="row h-100 circlePer justify-content-between" style="margin-bottom: 60px">
-              <div class="col-lg-2 col-md-4 col-sm-12 mt-5 col-lg-2 ml-class2">
+              <div class="col-lg-2  col-md-4 col-sm-12 mt-5 col-lg-2 ml-class2">
                   <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color: rgb(77, 187, 241)"
                       class="mt-1">
                       <p class="text-center font-weight-bold" style="margin-top: 55px;font-size: 30px">
@@ -166,20 +169,45 @@
                   </div>
                   <p class="offset-2  mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px;margin-left:80px;">Git
                   </p>
-                  <p style="font-size: 25px; margin-left: 60px;margin-top:-20px;color:#5D86B4">
+                  <p style="font-size: 25px;margin-top:-20px;color:#5D86B4">
                       Commits
                   </p>
               </div>
-             
-      </div>
+       
+      <div class="col-lg-2 col-md-3 col-sm-12 mt-5 ml-class4">
+        <div style="width: 200px;height:200px; background: white;border-radius: 50%;border:20px solid;border-color:  rgb(77, 187, 241)"
+            class="mt-1">
+            <p class="text-center font-weight-bold" style="margin-top: 55px;font-size: 35px">
+                100+
+            </p>
+        </div>
+        <p class="offset-2  mt-5 font-weight-bold" style="color:#5D86B4; font-size: 35px;margin-left:80px;">Soft Skills
+        </p>
+       
+    </div>
+         
+  </div>
+</div>
       </div>
       <div style="height:2px; background:grey">
         <hr>
       </div>
       </div>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+      
+      <div class="container p-3 text-center">
+        <h4 class="kodchasan-font" style="color: #707070;"><a href="https://github.com/lakshmikorukanti"
+                target="_blank">@lakshmikorukanti on GitHub</a></h4>
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+    </div>
+    </div>
+    <script>
+      GitHubCalendar(".calendar", "lakshmikorukanti", { responsive: true });
+  </script>
+  
+
 </body>
 
 </html>
