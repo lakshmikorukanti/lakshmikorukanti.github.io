@@ -10,7 +10,12 @@ p {
   margin-left: 42%;
   position: absolute;
 }
-
+.divColor {
+  background-image: linear-gradient(to right, #8692d6 0%, #26D0CE 51%, #8692d6 100%)
+}
+.div1 {
+  background: #26D0CE;
+}
 .colorBox {
   background: rgb(112, 196, 224);
   background-image: linear-gradient(
